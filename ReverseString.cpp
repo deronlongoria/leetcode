@@ -5,8 +5,7 @@ class Solution {
 public:
     string reverseString(string s) {
         int size = s.size() ;
-        int i;
-        for ( i=0 ; i<(size/2);i++)
+        for (int i=0 ; i<(size/2);i++)
             swap(s[i],s[size-i-1]);
         return s;
     }
