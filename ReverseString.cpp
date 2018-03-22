@@ -1,13 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    sol.reverseString("Hello";)
-    Solution sol;
-    cout<<s;
-    return 0;
-}
-
 class Solution {
 public:
     string reverseString(string s) {
@@ -18,3 +11,9 @@ public:
         return s;
     }
 };
+int main(){
+    Solution sol;
+    string s= sol.reverseString("Hello");
+    cout<<s;
+    return 0;
+}
