@@ -2,7 +2,10 @@
 using namespace std;
 
 int main(){
-    
+    sol.reverseString("Hello";)
+    Solution sol;
+    cout<<s;
+    return 0;
 }
 
 class Solution {
