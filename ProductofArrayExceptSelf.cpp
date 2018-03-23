@@ -13,3 +13,19 @@ public:
         return result;
     }
 };
+/* Example:
+   Input:[a,b,c,d]
+   Expect:[bcd,acd,abd,abc]
+     
+   i=1 =>lproduct=a
+         rproduct=d
+         result=[1,a,d,1]
+   
+   i=2=> lproduct=ab
+         rproduct=cd
+         result=[1,acd,abd,1] 
+         
+   i=3=> lproduct=abc
+         rproduct=bcd
+         result=[bcd,acd,abd,abc] 
+*/
