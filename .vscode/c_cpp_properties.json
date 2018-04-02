@@ -8,18 +8,22 @@
                 "${workspaceRoot}",
                 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"
             ],
-            "defines": ["_DEBUG"],
+            "defines": [
+                "_DEBUG"
+            ],
             "intelliSenseMode": "clang-x64",
             "browse": {
-
-                "path": ["${workspaceRoot}",
+                "path": [
+                    "${workspaceRoot}",
                     "C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++"
-                    
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
-            "macFrameworkPath": []
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
         },
         {
             "name": "Linux",
