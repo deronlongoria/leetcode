@@ -2,6 +2,8 @@
 "editor.fontSize": 14,
 "C_Cpp.intelliSenseEngineFallback": "Enabled",
 "C_Cpp.errorSquiggles": "Disabled",
+"python.linting.pylintEnabled": false,
+"python.linting.enabled": false,
 
 
 

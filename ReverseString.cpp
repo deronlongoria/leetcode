@@ -14,6 +14,6 @@ public:
 int main(){
     Solution sol;
     string s= sol.reverseString("Hello");
-    cout<<s;
+    cout<<s + "\n";
     return 0;
 }
